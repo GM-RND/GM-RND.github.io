@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-view-1",
-      "name": "View 1",
+      "id": "0-centre",
+      "name": "Centre",
       "levels": [
         {
           "tileSize": 256,
@@ -32,8 +32,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-view-2",
-      "name": "View 2",
+      "id": "1-general-manager-view-1",
+      "name": "General manager view 1",
       "levels": [
         {
           "tileSize": 256,
@@ -63,8 +63,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "2-view-3",
-      "name": "View 3",
+      "id": "2-general-manager-view-2",
+      "name": "General manager view 2",
       "levels": [
         {
           "tileSize": 256,
@@ -94,8 +94,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "3-view-4",
-      "name": "View 4",
+      "id": "3-manager-1",
+      "name": "Manager 1",
       "levels": [
         {
           "tileSize": 256,
@@ -125,8 +125,97 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "4-view-5",
-      "name": "View 5",
+      "id": "4-manager-2",
+      "name": "Manager 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-manager-3",
+      "name": "Manager 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-meeting-area",
+      "name": "Meeting area",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-kitchen",
+      "name": "Kitchen",
       "levels": [
         {
           "tileSize": 256,
@@ -156,7 +245,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "GM-AUDITORIUM",
+  "name": "GM Managers office layout",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
