@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-option-2",
-      "name": "Option 2",
+      "id": "0-a",
+      "name": "A",
       "levels": [
         {
           "tileSize": 256,
@@ -32,8 +32,8 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "1-option-1",
-      "name": "Option 1",
+      "id": "1-b",
+      "name": "B",
       "levels": [
         {
           "tileSize": 256,
@@ -63,7 +63,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Tracon Kitchen Cabinet",
+  "name": "Kitchen cabinets",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
